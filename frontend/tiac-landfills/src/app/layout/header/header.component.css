@@ -1,0 +1,26 @@
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.btn-sm {
+  font-size: 0.8rem;
+}
+
+.logout-button {
+  color: rgba(50, 49, 49, 0.87);
+  border-color: rgba(57, 57, 57, 0.87);
+  transition: all 0.2s ease-in-out;
+}
+
+
+.logout-button:hover {
+  color: #ffffff;
+  background-color: rgba(82,82,82,0.87);
+  border-color: rgba(82,82,82,0.87);
+}

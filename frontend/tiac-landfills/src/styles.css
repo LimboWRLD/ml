@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+body {
+  background-image: url("/backgr.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: -1;
+}
+
+.mapboxgl-popup-content {
+  font-family: sans-serif !important;
+  background: #d1cdcd !important;
+  border-radius: 10px !important;
+  padding: 14px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25) !important;
+  color: #333 !important;
+}
+
+.mapboxgl-popup-content b {
+  color: #448B2E;
+  font-size: 15px;
+}
