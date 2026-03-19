@@ -1,4 +1,4 @@
-# 🛰️ AerialWaste - Detekcija Divljih Deponija (MVP)
+#  AerialWaste - Detekcija Divljih Deponija (MVP)
 
 Ovaj repozitorijum dokumentuje pipeline za detekciju i lokalizaciju divljih deponija u Srbiji koristeći Sentinel-2 satelitske snimke i modele trenirane na AerialWaste datasetu.
 
